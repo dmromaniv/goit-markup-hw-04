@@ -25,10 +25,10 @@
   <body class="page">
     <header>
       <div class="container header-section">
-        <nav class="nav">
-          <a class="logo" href="./index.html"
-            ><span class="logo-primary">Web</span>Studio</a
-          >
+        <nav class="site-nav">
+          <a class="company-logo" href="./index.html">
+            Web<span class="header-logo">Studio</span>
+          </a>
           <ul class="nav-list list">
             <li class="item">
               <a class="nav-link" href="./index.html">Студія</a>
@@ -39,7 +39,7 @@
             <li class="item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact list">
+        <ul class="contacts-list list">
           <li class="contact-item">
             <a class="contact-link" href="mailto:info@devstudio.com">
               <svg class="contact-icon" width="16" height="12">
@@ -60,7 +60,7 @@
       </div>
     </header>
     <main>
-      <section class="portfolio section">
+      <section class="portfolio-section section">
         <div class="container">
           <h1 class="title visually-hidden">Портфоліо</h1>
           <ul class="filter-list list">
@@ -94,7 +94,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/website.jpg"
+                src="images/projects/website.jpg"
                 alt="Представлення команди вебсайту Технокряк"
                 width="370"
                 height="294"
@@ -107,7 +107,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/goldenStar.jpg"
+                src="images/projects/goldenStar.jpg"
                 alt="Баскетболісти"
                 width="370"
                 height="294"
@@ -120,7 +120,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/seafood.jpg"
+                src="images/projects/seafood.jpg"
                 alt="Логотип ресторану seafood"
                 width="370"
                 height="294"
@@ -133,7 +133,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/prime.jpg"
+                src="images/projects/prime.jpg"
                 alt="Наушники"
                 width="370"
                 height="294"
@@ -146,7 +146,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/boxes.jpg"
+                src="images/projects/boxes.jpg"
                 alt="Коробки"
                 width="370"
                 height="294"
@@ -159,7 +159,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/inspirationWebsite.jpg"
+                src="images/projects/inspirationWebsite.jpg"
                 alt="Можливості проекту Inspiration has no Borders"
                 width="370"
                 height="294"
@@ -172,7 +172,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/limitedEdition.jpg"
+                src="images/projects/limitedEdition.jpg"
                 alt="Книжка Limited Edition"
                 width="370"
                 height="294"
@@ -185,7 +185,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/lab.jpg"
+                src="images/projects/lab.jpg"
                 alt="Логотип проекту Lab"
                 width="370"
                 height="294"
@@ -198,7 +198,7 @@
             <li class="project-item">
               <img
                 class="project-image"
-                src="images/business.jpg"
+                src="images/projects/business.jpg"
                 alt="Використання додатку Growing Business за допомогою ноутбука"
                 width="370"
                 height="294"
@@ -215,82 +215,81 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <div class="address-block">
-            <a class="logo" href="./index.html"
-              ><span class="logo-primary">Web</span
-              ><span class="logo-secondary">Studio</span></a
-            >
+          <div class="contacts-block">
+            <a class="company-logo" href="./index.html">
+              Web<span class="footer-logo">Studio</span>
+            </a>
             <address>
-              <ul class="address-info list">
-                <li class="item">
+              <ul class="company-contacts-list list">
+                <li class="contact">
                   <a
                     class="link address-design"
                     href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
+                    >м. Київ, пр-т Лесі Українки, 26
+                  </a>
                 </li>
-                <li class="item">
-                  <a class="link link-hover" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
+                <li class="contact">
+                  <a class="link link-hover" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                  </a>
                 </li>
-                <li class="item">
-                  <a class="link link-hover" href="tel:+380961111111"
-                    >+38 096 111 11 11</a
-                  >
+                <li class="contact">
+                  <a class="link link-hover" href="tel:+380961111111">
+                    +38 096 111 11 11
+                  </a>
                 </li>
               </ul>
             </address>
           </div>
           <div class="media-block">
-            <h2 class="slogan">Приєднуйтесь</h2>
+            <p class="slogan">Приєднуйтесь</p>
             <ul class="media-list list">
               <li>
                 <a
-                  class="social-network network-bg"
+                  class="social-network icon-bg"
                   href="#"
                   lang="en"
                   aria-label="Instagram"
                 >
-                  <svg class="network-icon" width="20" height="20">
+                  <svg class="network-icon footer-icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li>
                 <a
-                  class="social-network network-bg"
+                  class="social-network icon-bg"
                   href="#"
                   lang="en"
                   aria-label="Twitter"
                 >
-                  <svg class="network-icon" width="20" height="20">
+                  <svg class="network-icon footer-icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li>
                 <a
-                  class="social-network network-bg"
+                  class="social-network icon-bg"
                   href="#"
                   lang="en"
                   aria-label="Facebook"
                 >
-                  <svg class="network-icon" width="20" height="20">
+                  <svg class="network-icon footer-icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li>
                 <a
-                  class="social-network network-bg"
+                  class="social-network icon-bg"
                   href="#"
                   lang="en"
                   aria-label="Linkedin"
                 >
-                  <svg class="network-icon" width="20" height="20">
+                  <svg class="network-icon footer-icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
